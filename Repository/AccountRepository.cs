@@ -15,6 +15,8 @@ public class AccountRepository : IAccountRepository
     {
         _context.Accounts.Add(account);  // додаємо акаунт у список
     }
+
+  // Отримати акаунт за id
   public GameAccount GetAccountById(int id)
 {
     var account = _context.Accounts.FirstOrDefault(a => a.Id == id);
