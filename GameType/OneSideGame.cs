@@ -5,10 +5,9 @@ namespace GameNamespace
     public class OneSideGame : BaseGame
     {
         public bool isRatingForPlayer1;
-        public OneSideGame(string opponentName, int rating)
-            : base(opponentName, rating) // Викликаємо конструктор базового класу
+        public OneSideGame(int gameTypeId, int rating, string opponentName)
+            : base(gameTypeId, rating, opponentName) 
         {
-            // Додаткова логіка, якщо потрібно
         }
 
       

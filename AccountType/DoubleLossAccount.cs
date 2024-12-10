@@ -4,7 +4,7 @@ namespace GameAccountNamesspace
 {
     public class DoubleLossAccount : GameAccount
     {
-        public DoubleLossAccount(string userName) : base(userName) { }
+        public DoubleLossAccount(int id, string userName) : base(id, userName) {}
 
         public override void WinGame(BaseGame game)
         {

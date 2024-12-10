@@ -4,8 +4,8 @@ namespace GameNamespace
 {
     public class StandardGame : BaseGame
     {
-        public StandardGame(int rating, string opponentName)
-            : base(opponentName, rating) // Передаємо rating до конструктора BaseGame
+        public StandardGame(int gameTypeId, int rating, string opponentName)
+            : base(gameTypeId, rating, opponentName) // Передаємо rating до конструктора BaseGame
         {
         }
 

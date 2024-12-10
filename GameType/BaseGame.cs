@@ -2,14 +2,16 @@ namespace GameNamespace
 {
     public abstract class BaseGame
     {
+        public int GameTypeId { get; set; }
         private static int UnicId = 1;
         public int GameId { get; private set; }
         public string OpponentName { get; set; }
        public string? Result { get; set; }
         public int Rating { get; set; }
 
-      public BaseGame(string opponentName, int rating)
+      public BaseGame(int gameTypeId, int rating, string opponentName)
         {
+            GameTypeId = gameTypeId;
             OpponentName = opponentName;
             Rating = rating;
             GameId = UnicId++;

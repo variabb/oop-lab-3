@@ -5,6 +5,7 @@ namespace GameAccountNamesspace
 {
     public abstract class GameAccount
     {
+        public int Id { get; set; }
         public string UserName { get; set; }
         protected int Rating = 10;
         protected List<BaseGame> gameHistory = new List<BaseGame>();
@@ -15,9 +16,11 @@ namespace GameAccountNamesspace
             set => Rating = value > 0 ? value : 1;
         }
 
-        public GameAccount(string userName)
+        public GameAccount(int id, string userName)
         {
+             Id = id;
             UserName = userName;
+           
         }
 
         public abstract void WinGame(BaseGame game);

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("лабораторна робота 1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02046d181e31adf8456c98e63f60d7564e2b42cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e5330ec07cbe5cc553120d381d3b7b9a27d908")]
 [assembly: System.Reflection.AssemblyProductAttribute("лабораторна робота 1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("лабораторна робота 1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

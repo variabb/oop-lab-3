@@ -7,8 +7,7 @@ namespace GameAccountNamesspace
     {
         private int winningStreak = 0;
 
-        public WinningStreakAccount(string userName)
-            : base(userName)
+      public WinningStreakAccount(int id, string userName) : base(id, userName) 
         {
         }
 

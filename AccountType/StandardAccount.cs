@@ -1,11 +1,12 @@
 using GameNamespace;
 using System;
+using System.Data.Common;
 
 namespace GameAccountNamesspace
 {
     public class StandardAccount : GameAccount
     {
-        public StandardAccount(string userName) : base(userName) { } // конструктор
+        public StandardAccount(int id, string userName) : base(id, userName) { } // конструктор
 
         public override void WinGame(BaseGame game)
         {
